@@ -7,7 +7,6 @@
 int main(void)
 {
 	int n;
-	scanf("%i", n);
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
