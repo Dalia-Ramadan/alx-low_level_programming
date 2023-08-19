@@ -1,5 +1,4 @@
-#!/bin/bash
-#include<stdio>
+#include <stdio>
 int main(){
         int n;
         if (n>0){
