@@ -3,7 +3,7 @@
  * _strcat - concatenates two strings
  * @dest: string to append to
  * @src: string to add
- *
+ * @n: number of bytes of str to concatenate
  * Return: a pointer to the resulting string
  */
 char *_strncat(char *dest, char *src, int n)
@@ -12,11 +12,11 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[a] != '\0')
 		a++;
 
-	if (; b<n; b++)
+	while(src[b] != '\0' && b<n)
 	{
-		src[b] != '\0';
 		dest[a] = src[b];
 		a++;
+		b++;
 	}
 
 	dest[a] = '\0';
