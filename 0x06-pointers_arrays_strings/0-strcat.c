@@ -1,4 +1,10 @@
 #include <stdio.h>
+
+/**
+ * main - concatenates two strings.
+ *
+ * Return: Always dest.
+ */
 char *_strcat(char *dest, char *src)
 {
 	dest[]="hello";
