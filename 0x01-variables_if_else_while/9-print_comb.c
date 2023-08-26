@@ -1,26 +1,31 @@
 #include <stdio.h>
-
 /**
- * main - Prints all possible combinations of single-digit numbers.
+ * main - Entry point
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
+
 {
-	int num;
+int number; /*Decarling statement*/
 
-	for (num = 0; num <= 9; num++)
-	{
-		putchar((num % 10) + '0');
-		if (num == 9)	
-		{
-			break;
-		}
-		putchar(',');
-		putchar(' ');
-	}
+/*for 0-9 with (,)*/
+for (number = 48; number <= 57; number++)
+{
+putchar(number); /*print  number*/
 
-	putchar('\n');
+/*if the value is 9 in format ASCII break the program*/
+if (number == 57)
+{
+break;
+}
 
-	return (0);
+putchar(','); /*print (,)*/
+putchar (' '); /*print a space*/
+}
+
+putchar('\n');
+
+return (0);
+
 }
