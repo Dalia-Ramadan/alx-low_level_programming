@@ -9,7 +9,6 @@
 void _puts_recursion(char *s)
 {
 	scanf("%s" , s);
-	printf("%s %c", s ,"\n");
+	printf("%s %s", s ,"\n");
 	_puts_recursion("");
-	return (s);
 }
