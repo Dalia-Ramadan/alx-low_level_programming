@@ -4,11 +4,13 @@
 /**
  * main - check the code
  *
+ * @s is a string
+ *
  * Return: Always 0.
  */
 void _puts_recursion(char *s)
 {
 	scanf("%s", s);
-	printf("%s %s",s,"\n");
+	printf("%s %s", s, "\n");
 	
 }
