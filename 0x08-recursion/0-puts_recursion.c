@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- * _puts_recursion-print a string
+ * 
+ * _puts_recursion-prints a string
  * @s: is a string
  *
  * Return: Always 0.
