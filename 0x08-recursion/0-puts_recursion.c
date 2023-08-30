@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- * _puts_recursion-function that prints a string
+ * _puts_recursion-prints a string
  * @s: is a string
  *
  * Return: Always 0.
