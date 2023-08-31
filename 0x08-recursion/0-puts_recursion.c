@@ -7,11 +7,12 @@
  */
 void _puts_recursion(char *s)
 {
-	if (s[0] != '\0')
+	if( *s == '\0')
 	{
-		printf(s[0]);
-		_puts_recursion(s + 1);
+		printf('\n');
 	}
 	else
-		printf('\n');
+	{
+		printf("%c %s", *s, ++s);
+	}
 }
