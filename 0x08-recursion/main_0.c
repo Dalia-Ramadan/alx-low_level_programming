@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-	_puts_recursion("First, solve the problem. Then, write the code \n");
+	_puts_recursion("%c", "First, solve the problem. Then, write the code\n");
 	return (0);
 }
