@@ -7,7 +7,7 @@ void _puts_recursion(char *);
  */
 int main(void)
 {
-	_puts_recursion("First, solve the problem. Then, write the code");
+	_puts_recursion("\nFirst, solve the problem. Then, write the code");
 	printf('\n');
 	return (0);
 }
