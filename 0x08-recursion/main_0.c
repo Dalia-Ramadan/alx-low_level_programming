@@ -1,4 +1,4 @@
-void _puts_recursion(char *);
+void _print_rev_recursion(char *);
 
 /**
  * main - check the code for Holberton School students.
@@ -7,8 +7,7 @@ void _puts_recursion(char *);
  */
 int main(void)
 {
-	_puts_recursion("\nFirst, solve the problem. Then, write the code");
-	printf('\n');
+	_print_rev_recursion("\nFirst, solve the problem. Then, write the code");
 	return (0);
 }
 
