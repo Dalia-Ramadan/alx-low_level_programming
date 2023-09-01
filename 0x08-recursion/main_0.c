@@ -7,7 +7,7 @@ void _print_rev_recursion(char *);
  */
 int main(void)
 {
-	_print_rev_recursion("\nFirst, solve the problem. Then, write the code");
+	_print_rev_recursion("First, solve the problem. Then, write the code");
 	return (0);
 }
 
