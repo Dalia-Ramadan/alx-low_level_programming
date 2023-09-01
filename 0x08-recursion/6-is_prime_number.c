@@ -1,29 +1,26 @@
 #include"main.h"
 /**
- * find_multipliers - look for multipliers of n.
- * @n: base number.
- * @i: iterator number.
- * Return: 1 if n is prime, 0 otherwise.
- */
-int find_multipliers(int n, int i)
+  * checker - checks recursively the input from is_prime_number
+  * @n: iterator
+  * @base: base number to check
+  * Return: 1 if n is a prime, else return 0 otherwise.
+  */
+int checker(int n, int base)
 {
-	if (i == n)
-		return (1);
-	if (n % i == 0)
+	if (base % n == 0 || base < 2)
 		return (0);
-	else
-		return (find_multipliers(n, i + 1));
+	else if (n == base - 1)
+		return (1);
+	else if (base > n)
+		return (checker(n + 1, base));
+	return (1);
 }
 /**
- * is_prime_number - check if n is prime
- * @n: base number.
- *
- * Return: 1 if n is prime, 0 otherwise.
- */
+  * is_prime_number - checks if the number is a prime number
+  * @n: the number to check
+  * Return: 1 if n is a prime, else return 0 otherwise.
+  */
 int is_prime_number(int n)
 {
-	if (n <= 1)
-		return (0);
-	else
-		return (find_multipliers(n, 2));
+	return (checker(2, n));
 }
