@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * @argc: is the counter of array
- * @argv: is the array
+ * @argc: contains the number of arguments passed to the program
+ * @argv: is a one-dimensional array of strings
  */
 int main (int argc, char *argv[])
 {
