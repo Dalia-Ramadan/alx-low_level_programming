@@ -11,13 +11,13 @@ int main(int argc, char *argv[])
 {
 	if (argc > 2)
 	{
-		int x = atoi(argv[2]);
-		int y = atoi(argv[3]);
+		int x = atoi(argv[1]);
+		int y = atoi(argv[2]);
 		printf("%i\n", x*y);
 	}
 	else
 	{
-		printf("%s\n", "Error");
+		printf("Error\n");
 	}
 	return (1);
 }
