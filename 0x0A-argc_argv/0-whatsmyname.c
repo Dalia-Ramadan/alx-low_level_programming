@@ -1,5 +1,5 @@
-#include "main.h"
-#include <stdio.h>
+#include"main.h"
+#include<stdio.h>
 /**
  * main - function to print file name
  * @argc: count of the arguments supplied to the program and the
