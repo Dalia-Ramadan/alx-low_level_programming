@@ -4,8 +4,8 @@
  * argc: the counter
  * argv: the array
  */
-int main (int argc, char *argv[])
+int main (int argc, __attribute__ ((unused))char *argv[])
 {
-	printf("%i", argc);
+	printf("%i\n", argc);
 	return (0);
 }
