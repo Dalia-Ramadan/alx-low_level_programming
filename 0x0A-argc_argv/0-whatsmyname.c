@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * @argc: ARGument Count
- * @argv: ARGument Vector
+ * @argc: is an integer variable that stores the number of command-line arguments passed by the user including the name of the program.
+ * @argv: is an array of character pointers listing all the arguments.
  */
 int main (__attribute__ ((unused))int argc, char *argv[])
 {
