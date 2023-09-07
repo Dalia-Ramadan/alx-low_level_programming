@@ -2,22 +2,24 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
- * main - function to print all arguments being passed
- * @argc: argument numbers
- * @argv: arguments passed
- * Return (1) if the program does not receive two arguments
+ * main - function to print multiplication result
+ * @argc: number of arguments
+ * @argv: arguments supplied
+ * Return: always 1 if less than two arg var supplied otherwise 0.
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
+	int a = 0, b = 0;
+
 	if (argc > 2)
 	{
-		int x = atoi(argv[1]);
-		int y = atoi(argv[2]);
-		printf("%i\n", x*y);
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		printf("%d\n", a * b);
 	}
 	else
 	{
 		printf("Error\n");
 	}
-	return (1);
+	return (0);
 }
