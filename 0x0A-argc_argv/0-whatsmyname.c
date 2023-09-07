@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * @argc: the counter of the argument
- * @argv: the argument
+ * @argc: ARGument Count
+ * @argv: ARGument Vector
  */
 int main (__attribute__ ((unused))int argc, char *argv[])
 {
