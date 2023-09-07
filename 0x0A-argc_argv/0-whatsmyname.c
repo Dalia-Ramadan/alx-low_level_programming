@@ -4,15 +4,8 @@
  * @argc: contains the number of arguments passed to the program
  * @argv: is a one-dimensional array of strings
  */
-int main (int argc, char *argv[])
+int main (__attribute__ ((unused))int argc, char *argv[])
 {
-	if (argc >= 0)
-	{
-		printf("%s\n", *argv++);
-	}
-	else
-	{
-		printf("The command had no other arguments.\n");
-	}
+	printf("%s", argv[0]);
 	return 0;
 }
