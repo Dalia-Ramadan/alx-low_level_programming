@@ -1,3 +1,4 @@
+#include"main.h"
 #include <stdio.h>
 /**
  * argc: the counter
@@ -6,4 +7,5 @@
 int main (int argc, char *argv[])
 {
 	printf("%i", argc);
+	return (0);
 }
