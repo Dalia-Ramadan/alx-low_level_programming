@@ -8,8 +8,7 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	b = malloc_checked(sizeof(int) * 402);
-	printf("%p\n", (void *)b);
-	free(b);
-	return (b);
+	int *p = (int*)malloc(b * sizeof(int));
+	if (p=='\0')
+	return (p);
 }
